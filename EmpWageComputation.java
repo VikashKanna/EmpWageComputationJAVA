@@ -1,14 +1,15 @@
 public class EmpWageComputation {
 
     public static void main(String[] args) {
-       System.out.println("WELCOME TO EMPLOYEE WAGE COMPUTATION");
-		// Constants
+    System.out.println("WELCOME TO EMPLOYEE WAGE COMPUTATION");
 		int IS_FULL_TIME = 1;
-		// Computation
+		int EMP_RATE_PER_HOUR = 20;
+
+		int empHrs = 0;
+		int empWage = 0;
+
 		double empCheck = Math.floor(Math.random() * 10) % 2;
 		if (empCheck == IS_FULL_TIME)
-			System.out.println("Employee is Present");
 		else
-			System.out.println("Employee is Absent");
 		}
 }
